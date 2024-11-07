@@ -1,5 +1,3 @@
-"use client";
-
 import Features from "@/components/features";
 import Footer from "@/components/footer";
 import { AnimatedNumber } from "@/components/number";
@@ -12,17 +10,17 @@ import Link from "next/link";
 import { useRef, useState } from "react";
 
 export default function HomePage() {
-  const [value, setValue] = useState(0);
-  const ref = useRef(null);
-  const isInView = useInView(ref);
+  // const [value, setValue] = useState(0);
+  // const ref = useRef(null);
+  // const isInView = useInView(ref);
 
-  if (isInView && value === 0) {
-    setValue(200);
-  }
+  // if (isInView && value === 0) {
+  //   setValue(200);
+  // }
 
   return (
     <div className="py-10">
-      <main className="flex flex-col pt-36 md:pt-44 text-black/60 dark:text-white/60">
+      <main className="flex flex-col pt-36 text-black/60 dark:text-white/60">
         <div className="flex flex-col gap-6 max-w-4xl mx-auto h-[600px] text-center">
           <AnimatedGradientText className="h-9 cursor-pointer">
             🎉 <hr className="mx-2 h-4 w-px shrink-0 bg-gray-300" />{" "}
@@ -45,10 +43,10 @@ export default function HomePage() {
           </h1>
           <p className="max-w-xl text-lg mx-auto px-4 md:px-0">
             GhostLayer is a modern guide to learn more deeply about how to
-            become more private.
+            become more private online.
           </p>
 
-          <p ref={ref}>
+          {/* <p ref={ref}>
             <AnimatedNumber
               className="font-bold text-black/90 dark:text-white/90"
               springOptions={{
@@ -58,7 +56,7 @@ export default function HomePage() {
               value={value}
             />{" "}
             topics in total
-          </p>
+          </p> */}
 
           <div className="flex flex-col md:flex-row gap-4 mt-4 mx-auto">
             <Button variant="default" className="w-48 h-11 rounded-full">

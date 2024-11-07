@@ -12,12 +12,12 @@ export const baseOptions: BaseLayoutProps = {
       active: "nested-url",
     },
     {
-      text: "❤️ Donate",
+      text: "Useful Links",
       url: "#",
       active: "nested-url",
     },
     {
-      text: "Useful Links",
+      text: "❤️ Donate",
       url: "#",
       active: "nested-url",
     },
