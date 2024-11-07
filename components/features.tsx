@@ -6,7 +6,6 @@ import {
   CircleUser,
   Cog,
   Compass,
-  Cookie,
   EarthLock,
   ExternalLinkIcon,
   Facebook,
@@ -14,18 +13,14 @@ import {
   Fingerprint,
   Github,
   GlobeLock,
-  Instagram,
   KeyRound,
   LockKeyholeOpen,
-  Monitor,
   Radar,
   Rss,
   ScanFace,
-  ShieldAlert,
   TrendingUpDown,
   Twitter,
   UserCheck,
-  Videotape,
   Waypoints,
   Webcam,
 } from "lucide-react";
@@ -70,15 +65,13 @@ export default function Features() {
               <Cog className="inline h-10 w-10 text-purple-500 dark:text-purple-400" />
             </h3>
             <p className="mt-4 text-lg">
-              With our guide, you can learn how to set your online privacy and
-              security settings to your needs. From selecting secure browsers to
-              configuring encrypted messaging apps, we provide all the resources
-              you need.
+              Set your settings to your needs. Select secure browsers, configure
+              encrypted messaging apps and more.
             </p>
             <div className="relative">
               <Link href="/">
                 <Button className="mt-8 rounded-full h-12 w-56">
-                  Explore Privacy Guides
+                  Privacy Guides
                 </Button>
               </Link>
             </div>
@@ -93,10 +86,8 @@ export default function Features() {
               <Rss className="inline h-10 w-10 text-yellow-500 dark:text-yellow-400" />
             </h3>
             <p className="mt-4 text-lg">
-              We stay on top of the latest technologies and news, so you don’t
-              have to. Our content is updated regularly to ensure you’re
-              learning the most effective and up-to-date methods to protect
-              yourself online.
+              We try our best to keep our guides up-to-date with the latest
+              technologies and news, so you don’t have to.
             </p>
             <div className="relative">
               <Link href="/">
@@ -118,9 +109,9 @@ export default function Features() {
               <BookCopy className="inline h-10 w-10 text-blue-500 dark:text-blue-400" />
             </h3>
             <p className="mt-4 text-lg">
-              GhostLayer thrives on the contributions of everyone! As an
-              open-source project, we encourage collaboration to keep our guides
-              accurate, fresh, and useful for all.
+              We thrive on the contributions of everyone! As an open-source
+              project, we encourage collaboration to keep our guides accurate
+              and useful for everyone.
             </p>
             <div className="relative">
               <Link href="/">
@@ -142,10 +133,10 @@ export default function Features() {
                 <UserCheck className="h-7 w-7 text-blue-500 p-1 dark:text-blue-400" />
                 <p className="ml-2">Regular Updates with New Privacy Tools</p>
               </div>
-              <div className="mt-5 flex items-center">
+              {/* <div className="mt-5 flex items-center">
                 <UserCheck className="h-7 w-7 text-blue-500 p-1 dark:text-blue-400" />
                 <p className="ml-2">Collaborative Community of Experts</p>
-              </div>
+              </div> */}
               <div className="mt-5 flex items-center">
                 <UserCheck className="h-7 w-7 text-blue-500 p-1 dark:text-blue-400" />
                 <p className="ml-2">Constantly Improving Knowledge Base</p>
@@ -166,8 +157,7 @@ export default function Features() {
           </h2>
           <p className="mt-4 text-lg">
             We walk you through practical steps to secure your devices and
-            accounts against cyber threats. From creating strong passwords to
-            enabling two-factor authentication, GhostLayer covers it all:
+            accounts.
           </p>
           <div className="mt-8 w-full">
             <div className="flex items-center">
@@ -188,9 +178,7 @@ export default function Features() {
           </div>
         </div>
         <div
-          className={cn(
-            "relative hidden md:flex h-[484px] mx-auto p-6 overflow-hidden"
-          )}
+          className={cn("relative flex h-[484px] mx-auto p-6 overflow-hidden")}
         >
           <AnimatedList>
             {notifications.map((item, idx) => (
@@ -248,9 +236,8 @@ export default function Features() {
             <Webcam className="inline h-8 w-8 text-yellow-500 dark:text-yellow-400" />
           </h2>
           <p className="mt-4 text-lg">
-            Your data is constantly collected, tracked, and sold without your
-            consent. Our guide helps you minimize your digital footprint and
-            take control of your personal information:
+            Stop letting your data to be constantly collected, tracked, and sold
+            without your consent.
           </p>
           <div className="mt-8 w-full">
             <div className="flex items-center">
@@ -284,32 +271,32 @@ export default function Features() {
           <div className="mt-8 w-full">
             <div className="flex items-center">
               <p className="ml-2">
-                <span className="text-red-500 dark:text-red-400">
-                  Every 39 seconds
+                <span className="text-red-500 dark:text-red-400 font-bold">
+                  Every 11 seconds
                 </span>
                 , a cyberattack occurs somewhere.
               </p>
             </div>
             <div className="mt-4 flex items-center">
               <p className="ml-2">
-                <span className="text-red-500 dark:text-red-400">
-                  93% of websites
+                <span className="text-red-500 dark:text-red-400 font-bold">
+                  98% of websites
                 </span>{" "}
                 track your browsing habits unknowingly.
               </p>
             </div>
             <div className="mt-4 flex items-center">
               <p className="ml-2">
-                <span className="text-red-500 dark:text-red-400">
-                  4.1 billion records
+                <span className="text-red-500 dark:text-red-400 font-bold">
+                  9.3 billion records
                 </span>{" "}
-                were exposed in data breaches in 2019.
+                were exposed in data breaches in 2023.
               </p>
             </div>
             <div className="mt-4 flex items-center">
               <p className="ml-2">
-                <span className="text-red-500 dark:text-red-400">
-                  70% of people
+                <span className="text-red-500 dark:text-red-400 font-bold">
+                  80% of people
                 </span>{" "}
                 believe their online activities are monitored.
               </p>
@@ -355,10 +342,7 @@ export default function Features() {
             from the Grid{" "}
             <Radar className="ml-1 inline h-8 w-8 text-blue-500 dark:text-blue-400" />
           </h2>
-          <p className="mt-4 text-lg">
-            If anonymity is your goal, GhostLayer teaches you how to stay hidden
-            and untraceable online, offering step-by-step guides on:
-          </p>
+          <p className="mt-4 text-lg">Stay hidden and untraceable online.</p>
           <div className="mt-8 w-full">
             <div className="flex items-center">
               <EarthLock className="h-7 w-7 text-blue-500 p-1 dark:text-blue-400" />
@@ -381,7 +365,7 @@ export default function Features() {
           max={100}
           min={0}
           value={value}
-          className="hidden md:flex mx-auto my-auto w-max h-max"
+          className="flex mx-auto my-auto w-64 md:w-max h-max"
           gaugePrimaryColor="#6da0f8"
           gaugeSecondaryColor="rgba(0, 0, 0, 0.1)"
         />
@@ -391,14 +375,8 @@ export default function Features() {
         <h2 className="text-4xl tracking-tight text-black dark:text-white">
           And so Much More
         </h2>
-        <p className="mt-4 text-lg tracking-tight">
-          We can help you and others take back control of their online presence
-          with recourses all around the web.
-        </p>
         <Link href="/">
-          <Button className="rounded-full w-max mx-auto">
-            Get Started Now
-          </Button>
+          <Button className="rounded-full w-max mx-auto">Start Now</Button>
         </Link>
       </div>
     </section>

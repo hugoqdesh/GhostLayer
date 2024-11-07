@@ -60,11 +60,11 @@ export default function HomePage() {
 
           <div className="flex flex-col md:flex-row gap-4 mt-4 mx-auto">
             <Button variant="default" className="w-48 h-11 rounded-full">
-              Get Started Now <ArrowRight />
+              Start Now <ArrowRight />
             </Button>
             <a href="#features">
               <Button variant="ghost" className="w-44 h-11 rounded-full">
-                Start Exploring <ChevronDown />
+                Explore <ChevronDown />
               </Button>
             </a>
           </div>
