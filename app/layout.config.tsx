@@ -4,7 +4,6 @@ export const baseOptions: BaseLayoutProps = {
   nav: {
     title: "GhostLayer",
   },
-  githubUrl: "https://github.com/hugoqdesh/ghostlayer",
   links: [
     {
       text: "Getting Started",
