@@ -58,7 +58,7 @@ export default function Features() {
       className="w-full flex-col pt-28 text-black/80 dark:text-white/80"
       id="features"
     >
-      <div className="mx-auto mt-16 flex w-full flex-col bg-black/5 dark:bg-white/5 shadow md:w-5/6 md:rounded-md lg:w-3/4 lg:flex-row">
+      <div className="mx-auto mt-16 flex w-full flex-col md:w-5/6 lg:w-3/4 lg:flex-row">
         <div className="flex-1 p-5 lg:p-12">
           <div className="flex flex-col justify-center p-12">
             <h3 className="text-4xl text-black dark:text-white">
@@ -83,7 +83,7 @@ export default function Features() {
               </Link>
             </div>
           </div>
-          <hr />
+
           <div className="flex flex-col justify-center p-12">
             <h3 className="text-4xl text-black dark:text-white">
               <span className="font-bold text-yellow-500 dark:text-yellow-400">
@@ -108,7 +108,6 @@ export default function Features() {
           </div>
         </div>
 
-        <div className="mx-2 h-[1px] border-t lg:h-[unset] lg:w-[1px] lg:border-l lg:border-t-0"></div>
         <div className="flex-1 p-5 lg:p-12">
           <div className="flex flex-col justify-center p-12">
             <h3 className="text-4xl text-black dark:text-white">
@@ -156,7 +155,7 @@ export default function Features() {
         </div>
       </div>
 
-      <div className="mx-auto mt-36 flex w-full flex-col bg-black/5 dark:bg-white/5 shadow md:w-5/6 md:rounded-md lg:w-3/4 xl:flex-row">
+      <div className="mx-auto mt-36 flex w-full flex-col md:w-5/6 lg:w-3/4 xl:flex-row">
         <div className="flex flex-col justify-center p-16 lg:w-1/2">
           <h2 className="text-4xl text-black dark:text-white">
             <span className="font-bold text-green-500 dark:text-green-400">
@@ -201,7 +200,7 @@ export default function Features() {
         </div>
       </div>
 
-      <div className="mx-auto mt-36 flex w-full flex-col bg-black/5 dark:bg-white/5 shadow md:w-5/6 md:rounded-md lg:w-3/4 xl:flex-row">
+      <div className="mx-auto mt-36 flex w-full flex-col md:w-5/6 lg:w-3/4 xl:flex-row">
         <div className="relative hidden md:flex lg:w-1/2 h-[484px] items-center justify-center">
           <OrbitingCircles
             className="size-[40px] border-none"
@@ -273,7 +272,7 @@ export default function Features() {
         </div>
       </div>
 
-      <div className="mx-auto mt-36 flex w-full flex-col bg-black/5 dark:bg-white/5 p-5 shadow md:w-5/6 md:rounded-md lg:w-3/4 lg:flex-row xl:p-12">
+      <div className="mx-auto mt-36 flex w-full flex-col p-5 md:w-5/6 lg:w-3/4 lg:flex-row xl:p-12">
         <div className="flex flex-col justify-center p-16 lg:w-1/2">
           <h3 className="text-4xl text-black dark:text-white">
             We are Not{" "}
@@ -318,7 +317,6 @@ export default function Features() {
           </div>
         </div>
 
-        <div className="mx-2 h-[1px] border-t lg:h-[unset] lg:w-[1px] lg:border-l lg:border-t-0"></div>
         <div className="flex flex-col p-16 lg:w-1/2">
           <h3 className="text-4xl text-black dark:text-white">
             Your{" "}
@@ -348,7 +346,7 @@ export default function Features() {
         </div>
       </div>
 
-      <div className="mx-auto mt-36 flex w-full flex-col bg-black/5 dark:bg-white/5 shadow md:w-5/6 md:rounded-md lg:w-3/4 xl:flex-row md:pb-8 lg:pb-0">
+      <div className="mx-auto mt-36 flex w-full flex-col md:w-5/6 lg:w-3/4 xl:flex-row md:pb-8 lg:pb-0">
         <div className="flex flex-col justify-center p-16 xl:w-1/2">
           <h2 className="text-4xl text-black dark:text-white">
             <span className="font-bold text-blue-500 dark:text-blue-400">
