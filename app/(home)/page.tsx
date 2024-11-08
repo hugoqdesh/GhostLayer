@@ -1,3 +1,5 @@
+"use client";
+
 import Features from "@/components/features";
 import Footer from "@/components/footer";
 import { AnimatedNumber } from "@/components/number";
@@ -10,13 +12,13 @@ import Link from "next/link";
 import { useRef, useState } from "react";
 
 export default function HomePage() {
-  // const [value, setValue] = useState(0);
-  // const ref = useRef(null);
-  // const isInView = useInView(ref);
+  const [value, setValue] = useState(0);
+  const ref = useRef(null);
+  const isInView = useInView(ref);
 
-  // if (isInView && value === 0) {
-  //   setValue(200);
-  // }
+  if (isInView && value === 0) {
+    setValue(50);
+  }
 
   return (
     <div className="py-10">
@@ -46,17 +48,17 @@ export default function HomePage() {
             become more private online.
           </p>
 
-          {/* <p ref={ref}>
+          <p ref={ref}>
             <AnimatedNumber
               className="font-bold text-black/90 dark:text-white/90"
               springOptions={{
                 bounce: 0,
-                duration: 5000,
+                duration: 6000,
               }}
               value={value}
-            />{" "}
-            topics in total
-          </p> */}
+            />
+            + topics in total
+          </p>
 
           <div className="flex flex-col md:flex-row gap-4 mt-4 mx-auto">
             <Button variant="default" className="w-48 h-11 rounded-full">
